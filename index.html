@@ -4,10 +4,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Closee — Yakınındaki insanlarla tanış</title>
-    <meta
-      name="description"
-      content="Closee, yakınındaki insanlarla tanışmanı sağlayan bir dating uygulamasıdır. Gizlilik politikası, kullanım koşulları ve KVKK aydınlatma metni."
-    />
+    <meta name="description" content="Closee, yakınındaki insanlarla tanışmanı sağlayan bir dating uygulamasıdır. Gizlilik politikası, kullanım koşulları ve KVKK aydınlatma metni." />
+    <link rel="alternate" hreflang="tr" href="https://closee.com.tr/" />
+    <link rel="alternate" hreflang="en" href="https://closee.com.tr/en/" />
+    <link rel="alternate" hreflang="x-default" href="https://closee.com.tr/" />
     <link rel="icon" href="/assets/favicon.png" type="image/png" sizes="32x32" />
     <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
     <link rel="stylesheet" href="/assets/styles.css" />
@@ -16,14 +16,20 @@
     <header class="site-header">
       <div class="site-header__inner">
         <a class="brand" href="/">Closee</a>
-        <nav class="nav" aria-label="Ana menü">
-          <a href="/" aria-current="page">Ana Sayfa</a>
-          <a href="/privacy/">Gizlilik</a>
-          <a href="/terms/">Kullanım Koşulları</a>
-          <a href="/kvkk/">KVKK</a>
-          <a href="/delete-account/">Hesap Silme</a>
-          <a href="/contact/">İletişim</a>
-        </nav>
+        <div class="site-header__end">
+          <nav class="nav" aria-label="Main">
+            <a href="/" aria-current="page">Ana Sayfa</a>
+            <a href="/privacy/">Gizlilik</a>
+            <a href="/terms/">Kullanım Koşulları</a>
+            <a href="/kvkk/">KVKK</a>
+            <a href="/delete-account/">Hesap Silme</a>
+            <a href="/contact/">İletişim</a>
+          </nav>
+          <div class="lang-switch" role="group" aria-label="Language">
+            <a class="lang-switch__btn is-active" href="/" hreflang="tr" aria-current="true">TR</a>
+            <a class="lang-switch__btn" href="/en/" hreflang="en">EN</a>
+          </div>
+        </div>
       </div>
     </header>
 
@@ -51,13 +57,13 @@
 
     <footer class="site-footer">
       <div class="site-footer__inner">
-        <nav class="site-footer__nav" aria-label="Alt menü">
-          <a href="/">Ana Sayfa</a>
-          <a href="/privacy/">Gizlilik</a>
-          <a href="/terms/">Kullanım Koşulları</a>
-          <a href="/kvkk/">KVKK</a>
-          <a href="/delete-account/">Hesap Silme</a>
-          <a href="/contact/">İletişim</a>
+        <nav class="site-footer__nav" aria-label="Footer">
+            <a href="/">Ana Sayfa</a>
+            <a href="/privacy/">Gizlilik</a>
+            <a href="/terms/">Kullanım Koşulları</a>
+            <a href="/kvkk/">KVKK</a>
+            <a href="/delete-account/">Hesap Silme</a>
+            <a href="/contact/">İletişim</a>
         </nav>
         <div class="site-footer__meta">
           <span>© Closee</span>
